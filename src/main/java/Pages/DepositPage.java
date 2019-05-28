@@ -1,4 +1,4 @@
-package Pointsbet;
+package Pages;
 
 public class DepositPage {
 

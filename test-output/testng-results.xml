@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< Updated upstream
 <testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
   <reporter-output>
   </reporter-output>
@@ -8,6 +9,21 @@
     <test name="Default test" duration-ms="7862" started-at="2019-05-28T03:20:25Z" finished-at="2019-05-28T03:20:33Z">
       <class name="Pointsbet.Login">
         <test-method status="PASS" signature="login()[pri:0, instance:Pointsbet.Login@523884b2]" name="login" duration-ms="7823" started-at="2019-05-28T03:20:25Z" finished-at="2019-05-28T03:20:33Z">
+=======
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="16106" started-at="2019-05-26T03:59:13Z" finished-at="2019-05-26T03:59:29Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="16106" started-at="2019-05-26T03:59:13Z" finished-at="2019-05-26T03:59:29Z">
+      <class name="Pointsbet.Login">
+        <test-method status="PASS" signature="browserOpening()[pri:0, instance:Pointsbet.Login@2b98378d]" name="browserOpening" duration-ms="9328" started-at="2019-05-26T03:59:13Z" finished-at="2019-05-26T03:59:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserOpening -->
+        <test-method status="PASS" signature="login()[pri:0, instance:Pointsbet.Login@2b98378d]" name="login" duration-ms="6736" started-at="2019-05-26T03:59:22Z" finished-at="2019-05-26T03:59:29Z">
+>>>>>>> Stashed changes
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
