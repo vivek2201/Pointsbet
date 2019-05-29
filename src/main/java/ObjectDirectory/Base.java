@@ -30,7 +30,7 @@ public class Base {
 		driver= new ChromeDriver();
 	    driver.get(URL);
 		}	
-		driver= new ChromeDriver();
+		
 	
 	}
 	
