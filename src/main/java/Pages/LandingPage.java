@@ -7,19 +7,28 @@ import org.openqa.selenium.WebElement;
 import ObjectDirectory.Base;
 
 public class LandingPage{
-public WebDriver driver;
+public WebDriver driver=null;
 
 	public LandingPage(WebDriver driver)
 	{
 		this.driver=driver;
 	}
 	
-	WebElement pushnotification=driver.findElement(By.xpath("//button[@class='ab-message-button'][2]"));
 	
-	public WebElement pushnotication()
+	public WebElement pushnotication() throws InterruptedException
 	{
-		return pushnotification;
+		Thread.sleep(5000L);
+		return driver.findElement(By.xpath("//button[@class='ab-message-button'][2]"));
 	}
+
+
+	public WebElement loginButton() throws InterruptedException {
+		// TODO Auto-generated method stub
+		Thread.sleep(5000L);
+		return driver.findElement(By.xpath("//button[@ng-click='$ctrl.openLoginModal()']"));
+	}
+	
+	
 	
 	
 	
