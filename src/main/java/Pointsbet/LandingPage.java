@@ -27,9 +27,8 @@ public WebDriver driver=null;
 		Thread.sleep(5000L);
 		return driver.findElement(By.xpath("//button[@ng-click='$ctrl.openLoginModal()']"));
 	}
-	
-	
-	
+
+
 	
 	
 
