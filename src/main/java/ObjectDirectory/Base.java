@@ -20,8 +20,12 @@ public class Base {
 	public void browserOpening() throws IOException,FileNotFoundException
 	{
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\priya.singhal\\MavenProject\\Drivers\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "Drivers/chromedriver.exe");
+		System.out.println("not finding chromedriver");
 		Properties prop=new Properties();
-		FileInputStream fis=new FileInputStream("C:\\Users\\priya.singhal\\MavenProject\\src\\main\\java\\ObjectDirectory\\Sorce.properties");
+		System.out.println("not finding file");
+		FileInputStream fis=new FileInputStream("C:\\Users\\priya\\Pointsbet\\src\\main\\java\\ObjectDirectory\\Sorce.properties");
+		
 		prop.load(fis);
 		String browser=prop.getProperty("Browser");
 		String URL=prop.getProperty("URL");
